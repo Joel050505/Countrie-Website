@@ -1,0 +1,73 @@
+body {
+  background-color: #94f0f1;
+  margin: 0;
+  padding: 0;
+}
+
+.Header {
+  display: flex;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 5px;
+  border: ridge;
+  border-color: black;
+  width: 175px;
+}
+
+.Middle-part {
+  display: flex;
+  /* margin-bottom: 200px; */
+}
+
+.Nav-bar {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-right: 250px;
+  /* justify-content: space-evenly; */
+  padding: 30px;
+}
+
+.Middle-part .Nav-bar :hover {
+  transition: ease-in-out;
+  color: white;
+}
+
+.Middle-part .Nav-bar {
+  color: white;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+/* .Svergie-flagga {
+  width: 250px;
+} */
+
+.Footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  font-size: 40px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Brush Script MT', cursive;
+  border-radius: 20px;
+  border: solid 2px black;
+  width: 100%;
+}
+/* 
+.England-flag {
+  width: 200px;
+} */
+
+img {
+  width: 200px;
+}
+
+.Earth {
+  font-size: 150px;
+  text-align: center;
+}
